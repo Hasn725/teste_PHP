@@ -1,5 +1,5 @@
 <?php
- Heitor: function calcularQuadrados($numeroArea) {
+function calcularQuadrados($numeroArea) {
     $quantidade = 1;
     $contador = $numeroArea;
     for ($contador; $contador > 0; $contador--) {
@@ -9,7 +9,7 @@
 }
 
 echo calcularQuadrados(3);
-[16:13, 03/05/2021] Samuel: function verifica ($array) {     //n é o tamanho do vetor
+function verifica ($array) {     //n é o tamanho do vetor
 $n = count($array);
     if ($n > 1) 
        for ($i = 1; $i < $n; $i++) 
